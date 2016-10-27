@@ -1,3 +1,8 @@
+# Only build pushes for deployment branches
+branches:
+  only:
+    - /^deploy.*$/
+
 # We are python.
 language: python
 
