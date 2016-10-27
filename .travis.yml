@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: O9nhlupHoJx+ORE2igfKJitlp5e/UG0fESRwpQCjyyCT0SbRmiTgIrfkc/lTBuFh6yu5nZOqcSWhYiaaIkttUjNS46H0545mLCzCE04I16Bq/YUUZ+7bObEt8rHR3GowuzaNIOm+Ttql1McVBFkFCUhyblT65JkM3oDGbvJ5wMdq6Ld8GH2DHVKtC1Exio5DpfOFFMKlMUI/bjqy4G2/VuLy76hbdvZOdGPW/c/ihLr8aUqcthzw9Gvz2UD0wQB2jb6UweCL+NgwT4ri0Dbyiqlx+HtzAh118D+XPc+PrC5jvXtQxh4R/tOj7GtJVec9uvzz3TN/Ufpa2AvGxtYo+mNp+CFcg0W5g+ksG16fe5uJ+DTteJOgK8vaYqfc38lHroWqGcQ3/kL/lv/jhJ4ED71ZMbW4lXjfi9PnhVgG8D4VETJTJZYQUGmWpLcKFiWypSF3aR4fMd6hlglFTPrzGCOft0PQySNwb/S088qOsIFK5NcSuQ9Bd+BForrzD+Xi3ioxbsc1stk3ds4eBKWxnuGSuHCWqsLjGIMP9Z0nix1K4I6znG5h0MWz00F2of4snLYfVG5xEO9/xqOA+Q7A2siqfqaEtVYJz4Qw53wHyDVjJKZfEvtJjqFGiHoWkic8yT3iZeQTLEDSORlurWx7hv0ZAOiWPLWK88rTTaK0ncg=
+  app: travistesthkj
+  on:
+    repo: harshk360/travis_test
