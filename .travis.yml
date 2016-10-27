@@ -1,3 +1,26 @@
+# Only build pushes for deployment branches
+branches:
+  only:
+    - /^deploy.*$/
+
+# We are python.
+language: python
+
+# Use Ubuntu Trusty
+dist: trusty
+sudo: required
+
+# Cache Python PIP stuff
+cache:
+    - pip
+    - apt
+
+install:
+    - pip install -r requirements.txt
+
+script:
+    - ./manage.py test
+
 deploy:
   provider: heroku
   api_key:
