@@ -1,3 +1,15 @@
+# We are python.
+language: python
+
+# Use Ubuntu Trusty
+dist: trusty
+sudo: required
+
+# Cache Python PIP stuff
+cache:
+    - pip
+    - apt
+
 install:
     - pip install -r requirements.txt
 
