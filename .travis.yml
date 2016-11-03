@@ -1,6 +1,7 @@
 # Only build pushes for deployment branches
 branches:
   only:
+    - master      
     - /^deploy.*$/
 
 # We are python.
