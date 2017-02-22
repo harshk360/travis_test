@@ -31,4 +31,5 @@ addons:
       - g++-4.8
 
 install:
-    - pip install -r requirements.txt
+    - pip install --user -r requirements.txt
+    
